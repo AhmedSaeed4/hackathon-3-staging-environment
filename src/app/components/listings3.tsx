@@ -88,7 +88,7 @@ interface ProductSummary {
 
 const Listings3 = async () => {
 
-  const sanityres = await client.fetch(`*[_type == "product"][0...8]{
+  const sanityres = await client.fetch(`*[_type == "product"][0...16]{
   _id,  
   name,
   "slug": slug.current,
@@ -107,10 +107,10 @@ const Listings3 = async () => {
   return (
     <div className="w-auto flex-col sm:px-[80px] px-[24px] gap-4 pb-2 flex sm:pb-[40px]">
        
-    <div id="listing" className="grid md:grid-cols-2 lg:grid-cols-4 grid-cols-2 sm:mt-[28px]  gap-[16px] sm:mb-[20px] sm:gap-[20px]">
+    <div id="listing" className="grid md:grid-cols-2 lg:grid-cols-4 grid-cols-1 sm:mt-[28px]  gap-[16px] sm:mb-[20px] sm:gap-[20px]">
         {sanityres.map((elem:ProductSummary )=>{
           return(
-              <Link key={elem._id} href={`productpages/${elem.slug}`} > 
+              <Link key={elem._id} href={`../productpages/${elem.slug}`} > 
                 <Card  image={elem.imageUrl} imagetitle={elem.name} price={elem.price}/>
         </Link>
             )

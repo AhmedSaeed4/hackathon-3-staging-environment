@@ -51,7 +51,7 @@ const [first, setfirst] = useState(0)
                 {product.name}
               </p>
               <p className="py-2 text-[24px] leading-[32.4px] font-clash font-normal">
-                {product.price}
+              £ {product.price}
               </p>
             </div>
             <div className="text-[#505977] text-[16px] leading-[21.6px]">

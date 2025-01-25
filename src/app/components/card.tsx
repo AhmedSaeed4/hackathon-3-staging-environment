@@ -20,9 +20,10 @@ const Card = (props:propstype) => {
 
             <div id="details" className="  sm:w-auto sm:h-auto  flex flex-col gap-2">
                 <h4 className="font-clash font-normal text-[20px] leading-[28px] ">{imagetitle}</h4>
-                <p className="font-satoshi font-normal text-[18px] leading-[27px] ">{price}</p>
+                <p className="font-satoshi font-normal text-[18px] leading-[27px] ">£{price}</p>
             </div>
         </div>
+        
     </div>
     
   )

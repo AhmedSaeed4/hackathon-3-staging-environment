@@ -49,7 +49,7 @@ const route = useRouter()
     } else{
       setTimeout(() => {
       route.push("../sign-up")
-    }, 2000);
+    }, 1000);
     }
   }
 

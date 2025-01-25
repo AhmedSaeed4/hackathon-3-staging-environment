@@ -7,6 +7,7 @@ import { client } from '@/sanity/lib/client';
 import React from 'react';
 
 import ProductDetails2 from '@/app/components/ProductDetails2';
+import Listings from '@/app/components/Listings';
 
 interface Props {
   params: {
@@ -51,6 +52,7 @@ const Page = async ({ params }: Props) => {
         {/* Pass fetched data to ProductDetails */}
         <ProductDetails2 product={sanityres[0]} />
         <Features2 />
+        <Listings/>
         <Email2 />
         <Footer2 />
       </div>
