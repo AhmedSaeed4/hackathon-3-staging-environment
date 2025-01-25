@@ -119,7 +119,7 @@ const Listings3 = async () => {
     </div>
    
     <Link href={'allproducts'} id="button-medium" className=" w-auto sm:w-auto h-auto  bg-[#F9F9F9] flex mt-[40px] text-nowrap justify-center items-center self-center max-w-max  sm:mt-12 py-[16px] px-[32px] ">
-          <p className="font-satoshi font-normal text-[16px] leading-[24px] ">View collection</p>
+          <p className="font-satoshi font-normal text-[16px] leading-[24px] ">View Collection</p>
     
 </Link>
 </div>
