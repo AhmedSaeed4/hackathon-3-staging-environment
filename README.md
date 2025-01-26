@@ -67,14 +67,14 @@ This project is a **General E-Commerce Marketplace** designed to empower busines
 
 ## Project Structure
 
-src/
-├── app/ # Next.js application pages
-├── ├──components/ # Reusable React components (e.g., ProductCard, Cart)
-├── context/ # React context for state management
-├── firebase/ # Firebase configuration and authentication logic
-├── sanity/ # Sanity CMS schemas and data fetching logic
-public/ # Static assets (e.g., images, icons)
-documents/ # Project documentation (e.g., technical plans, test reports)
+-src/
+-├── app/ # Next.js application pages
+-├── ├──components/ # Reusable React components (e.g., ProductCard, Cart)
+-├── context/ # React context for state management
+-├── firebase/ # Firebase configuration and authentication logic
+-├── sanity/ # Sanity CMS schemas and data fetching logic
+-public/ # Static assets (e.g., images, icons)
+-documents/ # Project documentation (e.g., technical plans, test reports)
 
 
 ---
