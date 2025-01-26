@@ -118,7 +118,7 @@ if(isAuthenticated){console.log("done")}
                 {filteredProducts.length > 0 ? (
                   <ul className="grid grid-cols-1 gap-4">
                     {filteredProducts.map((item) => (
-                      <Link key={item._id} href={`productpages/${item.slug}`}>
+                      <Link key={item._id} href={`../productpages/${item.slug}`}>
                         <li
                           key={item._id}
                           className="border flex gap-2 p-4 rounded shadow"
@@ -298,7 +298,7 @@ if(isAuthenticated){console.log("done")}
                       const categorySlug = elem.category?.slug || "";
                       return (
                         <Link
-                          href={`/category/${categorySlug}`}
+                          href={`../category/${categorySlug}`}
                           key={elem._id}
                           className=""
                         >
@@ -448,7 +448,7 @@ if(isAuthenticated){console.log("done")}
           return (
             <Link className="transition-all duration-300 ease-in-out
         transform hover:scale-125 
-          " href={`/category/${categorySlug}`} key={elem._id}>
+          " href={`../category/${categorySlug}`} key={elem._id}>
               {elem.category.name}
             </Link>
           );

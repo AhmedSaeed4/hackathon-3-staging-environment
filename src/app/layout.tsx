@@ -71,6 +71,7 @@ export default async function  RootLayout(
     }
   return (
     <html lang="en"  className={`${satoshiFont.variable} ${clashFont.variable} ${integralCFFont.variable}`}>
+      <title>Avion by Ahmed</title>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
