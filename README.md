@@ -98,7 +98,7 @@ documents/ # Project documentation (e.g., technical plans, test reports)
 
 ### Day 3: API Integration and Data Migration
 - Designed Sanity CMS schemas for products.
-- Migrated API data into Sanity CMS using a custom Node.js script.
+- Migrated API data into Sanity CMS using a custom script.
 - Integrated Sanity CMS with Next.js to fetch and display product data dynamically.
 
 ### Day 4: Dynamic Frontend Components
