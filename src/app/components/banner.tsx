@@ -8,7 +8,7 @@ const Banner = () => {
       <Image src={x} alt="" className="w-[12px] h-[12px] opacity-0    "/> 
         <div className=" flex items-center justify-center  gap-[8px]">
             <Image src={del} alt="" className="w-[14px] h-[11px] "/> 
-            <p className="font-satoshi font-normal text-[14px] leading-[18.9px] text-white ">Free delivery on all orders over £50 with code easter checkout</p>
+            <p className="font-satoshi font-normal text-[14px] leading-[18.9px] text-white ">Fre delivery on all orders over £50 with code easter checkout</p>
         </div>
         <Image src={x} alt="" className="w-[12px] h-[12px]  ml-[16px] "/> 
         
